@@ -19,15 +19,19 @@ body {
 
 .roundBorder {
     border-radius: 5px;
+    
 }
 
 .list {
     margin: 25px auto;
     padding: 25px;
     background-color: var(--light);
-    width: 100%;
+    width: 50%;
     max-width: 350px;
+      
 }
+
+  
 
 .date {
     display: flex;
@@ -111,3 +115,12 @@ input:focus {
     text-decoration: line-through;
     color: var(--dark);
 }
+
+.list.roundBorder-2 {
+    float: left;
+    margin-right: 20px; /* Add some margin for better separation */
+    margin-top: -250px;
+  }
+
+
+  
