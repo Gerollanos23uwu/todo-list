@@ -83,4 +83,4 @@ const saveTaskToLocalStorage = (task) => {
 
 setDate();
 getTasksFromLocalStorage();
-()localStorage.clear();
+//()localStorage.clear();
